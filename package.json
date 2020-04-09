@@ -1,0 +1,23 @@
+{
+  "name": "module01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.0.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7",
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.13.0",
+    "supertest": "^4.0.2"
+  }
+}

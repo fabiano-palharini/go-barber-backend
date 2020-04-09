@@ -1,0 +1,3 @@
+# Go Barber
+
+This is WIP...
